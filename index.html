@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeCrafter - Frontend Development</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="nav-container">
+      <nav>
+        <h1 class="logo">CodeCrafter</h1>
+        <div class="nav-links">
+          <a href="#why"><i class="fas fa-check-circle"></i> Why Us</a>
+          <a href="#courses"><i class="fas fa-book"></i> Courses</a>
+          <a href="#learning-path"><i class="fas fa-road"></i> Path</a>
+          <a href="#faq"><i class="fas fa-question-circle"></i> FAQ</a>
+          <a href="#signup"><i class="fas fa-user-plus"></i> Sign Up</a>
+        </div>
+        <div class="hamburger" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h2 style="color: mintcream;">Launch Your Frontend Career with CodeCrafter</h2>
+    <p style="font-size: 20px;">Master HTML, CSS, JavaScript, React, and more to build professional web applications and land your dream dev job.</p>
+    <a href="#courses" class="cta-button primary">Start Learning Now</a>
+  </section>
+
+  <!-- Why CodeCrafter Section -->
+  <section id="why" class="why">
+    <h2>Why Choose CodeCrafter?</h2>
+    <div class="why-grid">
+      <div class="why-card card">
+        <i class="fas fa-code"></i>
+        <h3>Hands-On Coding</h3>
+        <p>Build 15+ real-world projects, from responsive websites to complex React apps.</p>
+      </div>
+      <div class="why-card card">
+        <i class="fas fa-rocket"></i>
+        <h3>Career-Focused</h3>
+        <p>Get resume reviews, portfolio guidance, and job placement support.</p>
+      </div>
+      <div class="why-card card">
+        <i class="fas fa-users"></i>
+        <h3>Expert Community</h3>
+        <p>Join a vibrant community of learners and mentors for ongoing support.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="courses">
+    <h2>Frontend Development Courses</h2>
+    <div class="courses-grid">
+      <div class="course-card card">
+        <i class="fab fa-react"></i>
+        <h3>React Mastery</h3>
+        <p>Learn React, Redux, and modern JavaScript to build dynamic, scalable web apps.</p>
+        <a href="#signup" class="cta-button secondary">Enroll Now</a>
+      </div>
+      <div class="course-card card">
+        <i class="fas fa-paint-brush"></i>
+        <h3>Advanced CSS & Responsive Design</h3>
+        <p>Master CSS Grid, Flexbox, and responsive techniques for pixel-perfect layouts.</p>
+        <a href="#signup" class="cta-button secondary">Enroll Now</a>
+      </div>
+      <div class="course-card card">
+        <i class="fab fa-js-square"></i>
+        <h3>JavaScript Essentials</h3>
+        <p>Build interactive web experiences with ES6+, APIs, and modern frameworks.</p>
+        <a href="#signup" class="cta-button secondary">Enroll Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Path Section -->
+  <section id="learning-path" class="learning-path">
+    <h2>Your Frontend Learning Path</h2>
+    <div class="path-roadmap">
+      <!-- Step 1 -->
+      <div class="path-step" id="step-1" data-tooltip="Start with the basics of web development.">
+        <div class="step-content card">
+          <div class="step-node">
+            <span class="node-number">1</span>
+          </div>
+          <span class="milestone-badge">Beginner</span>
+          <i class="fas fa-code"></i>
+          <h3>Foundations</h3>
+          <p>Learn HTML, CSS, and JavaScript basics to build static websites.</p>
+          <button class="cta-button primary" data-next="step-2">Next Step</button>
+        </div>
+      </div>
+  
+      <!-- Step 2 -->
+      <div class="path-step" id="step-2" data-tooltip="Advance to responsive and dynamic web skills.">
+        <div class="step-content card">
+          <div class="step-node">
+            <span class="node-number">2</span>
+          </div>
+          <span class="milestone-badge">Intermediate</span>
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Intermediate Skills</h3>
+          <p>Dive into responsive design, APIs, and modern JavaScript (ES6+).</p>
+          <button class="cta-button primary" data-next="step-3">Next Step</button>
+        </div>
+      </div>
+  
+      <!-- Step 3 -->
+      <div class="path-step" id="step-3" data-tooltip="Master professional frameworks like React.">
+        <div class="step-content card">
+          <div class="step-node">
+            <span class="node-number">3</span>
+          </div>
+          <span class="milestone-badge">Advanced</span>
+          <i class="fab fa-react"></i>
+          <h3>Advanced Frameworks</h3>
+          <p>Master React, Redux, and state management for complex apps.</p>
+          <button class="cta-button primary" data-next="step-4">Next Step</button>
+        </div>
+      </div>
+  
+      <!-- Step 4 -->
+      <div class="path-step" id="step-4" data-tooltip="Prepare for your dream dev job.">
+        <div class="step-content card">
+          <div class="step-node">
+            <span class="node-number">4</span>
+          </div>
+          <span class="milestone-badge">Professional</span>
+          <i class="fas fa-briefcase"></i>
+          <h3>Career Prep</h3>
+          <p>Build a portfolio, prepare for interviews, and land a job.</p>
+          <a href="#signup" class="cta-button primary">Finish Path</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- FAQ Section -->
+  <section id="faq" class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-container">
+      <div class="faq-item" role="region">
+        <h3><i class="fas fa-circle-info"></i> What prerequisites do I need?</h3>
+        <span></span>No prior coding experience needed. We start with basics and progress to advanced topics.</span>
+      </div>
+      <div class="faq-item" role="region">
+        <h3><i class="fas fa-circle-info"></i> How long is the program?</h3>
+        <p>Our flexible program takes 3-6 months, based on your pace.</p>
+      </div>
+      <div class="faq-item" role="region">
+        <h3><i class="fas fa-circle-info"></i> Will I get a certificate?</h3>
+        <p>Yes, you’ll receive a professional certificate upon completion.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Signup Section -->
+<section id="signup" class="signup">
+    <h2 style="color: mintcream;">🚀 Ready to Code Your Future?</h2>
+    <p>
+      Join <strong>CodeCrafter</strong> and start building real-world web applications with expert guidance.
+    </p>
+    <form class="signup-form">
+      <input type="email" placeholder="Enter your email" aria-label="Email address" required 
+             style="padding: 0.75rem 1rem; border-radius: 8px; border: none; width: 100%; font-size: 1rem;">
+      <button class="cta-button primary" type="submit">
+        Get Started for Free
+      </button>
+    </form>
+    <p style="font-size: 0.85rem; color: #ccc; margin-top: 1rem;">No credit card required. Cancel anytime.</p>
+  </section>
+  
+<!-- Overlay about owner of project-->
+<section id="project-info-section">
+    <!-- Info Button -->
+    <button id="infoToggleBtn" class="info-btn">
+      <i class="fas fa-info-circle"></i>
+    </button>
+  
+    <!-- Overlay Panel -->
+    <div id="infoOverlay" class="info-overlay hidden">
+      <div class="overlay-row">
+        <span>Project: <strong>CodeCrafter</strong></span>
+      </div>
+      <div class="overlay-row">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:navyasreecheruvupally@email.com">navyasreecheruvupally@email.com</a>
+      </div>
+      <div class="overlay-row">
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/NavyaSree-Ch/CodeCrafter-Landing-Page">GitHub</a>
+      </div>
+      <div class="overlay-footer">
+        Made for <strong>Think Sage Round 2</strong>
+      </div>
+    </div>
+  </section>
+
+  <!------------------ Footer ------------------------------------->
+  <footer>
+    <div class="footer-bottom">
+      <p>© 2025 CodeCrafter. All rights reserved. | Made for Think Sage Round 2 |
+        Done by: 
+        <a href="mailto:navyasreecheruvupally@email.com" style="color: tomato; text-decoration: none; font-weight: bold;"> 
+          navyasreecheruvupally@email.com
+        </a>
+      </p>
+      <div class="social-links">
+        <a href="mailto:navyasreecheruvupally@email.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/NavyaSree-Ch/CodeCrafter-Landing-Page" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#hero" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Hamburger menu toggle
+      const hamburger = document.querySelector('.hamburger');
+      const navLinks = document.querySelector('.nav-links');
+
+      hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+      });
+
+      // Preloader
+      window.addEventListener('load', () => {
+        document.getElementById('preloader').style.display = 'none';
+      });
+
+      // Card click effect
+      document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', () => {
+          card.classList.add('clicked');
+          setTimeout(() => card.classList.remove('clicked'), 300);
+        });
+      });
+
+      // Roadmap button navigation
+      document.querySelectorAll('.path-step .cta-button[data-next]').forEach(button => {
+        button.addEventListener('click', () => {
+          const nextStepId = button.getAttribute('data-next');
+          const nextStep = document.getElementById(nextStepId);
+          if (nextStep) {
+            nextStep.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            // Add active class to highlight the next step
+            document.querySelectorAll('.path-step').forEach(step => step.classList.remove('active'));
+            nextStep.classList.add('active');
+          }
+        });
+      });
+
+      // Set first step as active on load
+      document.querySelector('.path-step').classList.add('active');
+    });
+
+const infoBtn = document.getElementById('infoToggleBtn');
+  const overlay = document.getElementById('infoOverlay');
+
+  infoBtn.addEventListener('click', () => {
+    overlay.classList.toggle('hidden');
+  });
+  </script>
+</body>
+</html>
