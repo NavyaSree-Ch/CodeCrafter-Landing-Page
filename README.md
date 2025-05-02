@@ -59,6 +59,6 @@ The project is deployed on Netlify and can be accessed at:
 
 ## Credits
 - **Author**: Navya Sree Ch
-- **Email**: navyasreecheruvupally@gmail.com](mailto:navyasreecheruvupally@gmail.com)
+- **Email**: [navyasreecheruvupally@gmail.com](mailto:navyasreecheruvupally@gmail.com)
 - **GitHub**: [NavyaSree-Ch](https://github.com/NavyaSree-Ch)
 - **Project**: Created for **Think Sage Round 2 Challenge**
